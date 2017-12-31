@@ -1,0 +1,22 @@
+rip			exit
+
+op_a		1		topnext + top
+			2		topnext - top
+			3		topnext * top
+			4		topnext / top
+			5		topnext % top
+
+op_b		1		topnext == top
+			2		topnext < top
+			3		topnext > top
+			4		topnext & top
+			5		topnext | top
+			6		! top
+
+op_io		1		input and push to top
+			2		output top
+			3		print block
+
+op_log		1		if condition block
+			2		if operation block
+			3		else operation block
